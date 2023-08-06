@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-image: url(./Screenshot\ 2023-07-24\ 143054.jpg);
+    background-size: 50vw 70vh;
+    height: 70vh;
+    width: 50vw;
+    border: solid 2.5px;
+    border-radius: 1.5rem;
+    position: absolute;
+    left: 25vw;
+    top: 15vh;
+    opacity: 0.8;
+}
+
+#heading{
+    text-align: center;
+    /* font-weight: bolder; */
+    font-size: 2.5rem;
+    margin-top: 0.25rem;
+    letter-spacing: 0.2rem;
+}
+.btn{
+    font-size: medium;
+    font-weight: bolder;
+    background-color: white;
+    border: black solid 2.5px;
+    border-radius: 2.5rem;
+    height: 5vh;
+    width: 10vw;
+   
+}
+.btn:hover{
+    /* color: white; */
+    /* background-color: rgb(197, 146, 63); */
+    /* border: white solid 0.5px; */
+    background-color: #c59c7f;
+    cursor: pointer;
+    
+}
+#first{
+    position: absolute;
+    left: 20vw;
+    top: 25vh;
+}
+#second{
+    position: absolute;
+    left: 20vw;
+    top:35vh;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Translator</title>
+    <link rel="icon" href="./Screenshot 2023-07-24 143054.jpg" type="image/icon type">
+      <script>
+        function STT(){
+            window.open("./STT.py")
+        }
+        function STV(){
+            window.open("./STV.py")
+        }
+    </script>
+     <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="heading">
+                ASL Translator
+            </div>
+            <div>
+                <button id="first" class="btn" onclick="STT()">Sign to Text</button>
+                <button id="second" class="btn" onclick="STV()">Sign to Voice</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
